@@ -1,0 +1,120 @@
+      body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1a2a6c, #000000);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        h1 {
+			position: absolute;
+			top: 0%;
+			left: 50%;
+			transform: translateX(-50%);
+            color: #ffffff;
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease;
+        }
+		a{
+		color: #ffffff;
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease;
+		}
+        h1:hover {
+            color: #00ffcc;
+        }
+		button{
+		margin: auto;
+			background: linear-gradient(to bottom, #ff6b6b, #e600ff);
+			color: #ffffff;
+			border-radius: 30px;
+			position: absolute;
+			top: 20%;
+			left: 50%;
+			transform: translateX(-50%);
+			
+			text-align: center;
+			
+			
+			font: sans-serif;
+			transition: transform 0.3s ease;
+			box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+			border-width: 500%;
+		}
+		button:hover{
+		
+			
+			background: linear-gradient(to right, #ff4b2b, #ff416c); 
+			transform: translateX(-50%) scale(1.05);
+			box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.7);
+		}
+		button:active{
+			background: linear-gradient(to right, #ff5c3c, #ff527d); 
+			transform: transform: translateX(-50%); scale(1.05);
+			
+		}
+		
+		.icon{
+			  
+			  position: absolute;
+			  top: 3%;
+			  left: 1%;
+			  width: 5.2%;
+			  height: auto;
+			  border-radius: 10px;
+			  box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.9);
+			  transition: transform 0.3s ease;
+		}
+		.icon:hover{
+			  
+			  position: absolute;
+			  
+			  border-radius: 10px;
+			  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+			  transition: transform 0.3s ease;
+			  transform: scale(1.02);
+			  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+		}
+		
+		}
+		footer {
+            position: absolute;
+            bottom: 0px; 
+            width: 100%; 
+            background-color: black; 
+            color: #ffffff; 
+            font-size: 3rem;
+            text-align: center; 
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease;
+            padding: 20px; 
+            box-sizing: border-box; 
+        }
+		.f1{
+			position: absolute;
+            bottom: -5%;
+            left: 50%;
+			transform: translateX(-50%);
+            background-color: black; 
+            color: #ffffff !important; 
+            font-size: 125%;
+            text-align: center; 
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: color 0.3s ease;
+            width: 100%; 
+            height: 15%;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            
+            box-sizing: border-box;
+		}
+		
